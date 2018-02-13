@@ -72,7 +72,8 @@ webpack -v
 </html>
 ```
 
-
+## npm installation flag
+![npm-install-option](http://www.hirokoymj.com/images/Git/npm-install-flag.png)
 
 ## References:
 - [Webpack Tutorial - Replace Gulp/Grunt plugins with a single tool](https://www.youtube.com/watch?v=9kJVYpOqcVU)
