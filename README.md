@@ -28,34 +28,17 @@ module.exports = {
 };
 ```
 
-## run webpack with debug mode
+## run webpack and compile js files
 ```js
 webpack
 ```
 
-
-** the result after running webpack**
-```text
-Hash: 15ffb14176c2041e66df
-Version: webpack 3.11.0
-Time: 988ms
-         Asset     Size  Chunks                    Chunk Names
-scripts.min.js  2.19 MB       0  [emitted]  [big]  main
-   [0] ./js/scripts.js 50 bytes {0} [built]
-   [1] ./js/module1.js 53 bytes {0} [built]
-   [3] ./js/module2.js 3.31 kB {0} [built]
-   [5] (webpack)/buildin/global.js 509 bytes {0} [built]
-   [6] (webpack)/buildin/module.js 517 bytes {0} [built]
-    + 2 hidden modules
-```
-
-
-
-## Check the version
+** Compiled `scripts.js` to `script.min.js`**
 ```js
-webpack -v
-//3.11.0
+require('./module1.js');
+require('./module2.js');
 ```
+
 
 
 **HTML**
