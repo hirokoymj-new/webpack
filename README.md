@@ -33,7 +33,7 @@ module.exports = {
 webpack
 ```
 
-** Compiled `scripts.js` to `script.min.js`**
+**Compiled `scripts.js` to `script.min.js`**
 ```js
 require('./module1.js');
 require('./module2.js');
