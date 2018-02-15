@@ -1,13 +1,22 @@
 # Webpack
 
 ## Installation
+**Installed webpack**
+
 ```js
 npm init                // create package.json
 npm install -S webpack  // install webpack with dependencies
 npm install -g webpack  // install webpack globally
 ```
 
-## webpack.config.js
+**Installed jQuery and lodash for this demo**
+```js
+npm install jQuery
+npm install lodash
+```
+
+
+## Create webpack.config.js
 ```js
 var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
@@ -28,9 +37,40 @@ module.exports = {
 };
 ```
 
-## run webpack and compile js files
+## Check package.json
+jquery and lodash is also installed for this demo. 
+
+```js
+{
+  "name": "module-loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.5",
+    "webpack": "^3.11.0"
+  }
+}
+```
+
+
+## run webpack to compile js files
+**Run with debug mode**
+
 ```js
 webpack
+```
+
+
+**Run with production mode**
+```js
+NODE_ENV=production webpack
 ```
 
 
