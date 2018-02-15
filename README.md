@@ -47,8 +47,8 @@ require('./module2.js');
 ```
 
 
+**Run a html file**
 
-**HTML**
 ```html
 <!DOCTYPE html>
 <html>
