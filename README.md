@@ -11,8 +11,8 @@ npm install -g webpack  // install webpack globally
 
 **Installed jQuery and lodash for this demo**
 ```js
-npm install jQuery
-npm install lodash
+npm install -S  jquery
+npm install -S lodash
 ```
 
 
